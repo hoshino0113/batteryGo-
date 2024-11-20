@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B1A8E02CE05ACD00F76AC4 /* Vibrator Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 13B1A8DF2CE05ACD00F76AC4 /* Vibrator Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13B1A8E12CE05ACD00F76AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13B1A8D32CE05ACD00F76AC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B1A8DE2CE05ACD00F76AC4;
+			remoteInfo = "Vibrator Watch App";
+		};
+		13B1A8F22CE05ACE00F76AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13B1A8D32CE05ACD00F76AC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B1A8DE2CE05ACD00F76AC4;
+			remoteInfo = "Vibrator Watch App";
+		};
+		13B1A8FC2CE05ACE00F76AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13B1A8D32CE05ACD00F76AC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B1A8DE2CE05ACD00F76AC4;
+			remoteInfo = "Vibrator Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		13B1A9082CE05ACE00F76AC4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				13B1A8E02CE05ACD00F76AC4 /* Vibrator Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		13B1A8D92CE05ACD00F76AC4 /* Vibrator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vibrator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B1A8DF2CE05ACD00F76AC4 /* Vibrator Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vibrator Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B1A8F12CE05ACE00F76AC4 /* Vibrator Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vibrator Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B1A8FB2CE05ACE00F76AC4 /* Vibrator Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vibrator Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		13B1A8E32CE05ACD00F76AC4 /* Vibrator Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Vibrator Watch App";
+			sourceTree = "<group>";
+		};
+		13B1A8F42CE05ACE00F76AC4 /* Vibrator Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Vibrator Watch AppTests";
+			sourceTree = "<group>";
+		};
+		13B1A8FE2CE05ACE00F76AC4 /* Vibrator Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Vibrator Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B1A8DC2CE05ACD00F76AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B1A8EE2CE05ACE00F76AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B1A8F82CE05ACE00F76AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B1A8D22CE05ACD00F76AC4 = {
+			isa = PBXGroup;
+			children = (
+				13B1A8E32CE05ACD00F76AC4 /* Vibrator Watch App */,
+				13B1A8F42CE05ACE00F76AC4 /* Vibrator Watch AppTests */,
+				13B1A8FE2CE05ACE00F76AC4 /* Vibrator Watch AppUITests */,
+				13B1A8DA2CE05ACD00F76AC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13B1A8DA2CE05ACD00F76AC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B1A8D92CE05ACD00F76AC4 /* Vibrator.app */,
+				13B1A8DF2CE05ACD00F76AC4 /* Vibrator Watch App.app */,
+				13B1A8F12CE05ACE00F76AC4 /* Vibrator Watch AppTests.xctest */,
+				13B1A8FB2CE05ACE00F76AC4 /* Vibrator Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B1A8D82CE05ACD00F76AC4 /* Vibrator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B1A9092CE05ACE00F76AC4 /* Build configuration list for PBXNativeTarget "Vibrator" */;
+			buildPhases = (
+				13B1A8D72CE05ACD00F76AC4 /* Resources */,
+				13B1A9082CE05ACE00F76AC4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13B1A8E22CE05ACD00F76AC4 /* PBXTargetDependency */,
+			);
+			name = Vibrator;
+			packageProductDependencies = (
+			);
+			productName = Vibrator;
+			productReference = 13B1A8D92CE05ACD00F76AC4 /* Vibrator.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		13B1A8DE2CE05ACD00F76AC4 /* Vibrator Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B1A9052CE05ACE00F76AC4 /* Build configuration list for PBXNativeTarget "Vibrator Watch App" */;
+			buildPhases = (
+				13B1A8DB2CE05ACD00F76AC4 /* Sources */,
+				13B1A8DC2CE05ACD00F76AC4 /* Frameworks */,
+				13B1A8DD2CE05ACD00F76AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				13B1A8E32CE05ACD00F76AC4 /* Vibrator Watch App */,
+			);
+			name = "Vibrator Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Vibrator Watch App";
+			productReference = 13B1A8DF2CE05ACD00F76AC4 /* Vibrator Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13B1A8F02CE05ACE00F76AC4 /* Vibrator Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B1A90C2CE05ACE00F76AC4 /* Build configuration list for PBXNativeTarget "Vibrator Watch AppTests" */;
+			buildPhases = (
+				13B1A8ED2CE05ACE00F76AC4 /* Sources */,
+				13B1A8EE2CE05ACE00F76AC4 /* Frameworks */,
+				13B1A8EF2CE05ACE00F76AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13B1A8F32CE05ACE00F76AC4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				13B1A8F42CE05ACE00F76AC4 /* Vibrator Watch AppTests */,
+			);
+			name = "Vibrator Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Vibrator Watch AppTests";
+			productReference = 13B1A8F12CE05ACE00F76AC4 /* Vibrator Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B1A8FA2CE05ACE00F76AC4 /* Vibrator Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B1A90F2CE05ACE00F76AC4 /* Build configuration list for PBXNativeTarget "Vibrator Watch AppUITests" */;
+			buildPhases = (
+				13B1A8F72CE05ACE00F76AC4 /* Sources */,
+				13B1A8F82CE05ACE00F76AC4 /* Frameworks */,
+				13B1A8F92CE05ACE00F76AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13B1A8FD2CE05ACE00F76AC4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				13B1A8FE2CE05ACE00F76AC4 /* Vibrator Watch AppUITests */,
+			);
+			name = "Vibrator Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Vibrator Watch AppUITests";
+			productReference = 13B1A8FB2CE05ACE00F76AC4 /* Vibrator Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13B1A8D32CE05ACD00F76AC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					13B1A8D82CE05ACD00F76AC4 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					13B1A8DE2CE05ACD00F76AC4 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					13B1A8F02CE05ACE00F76AC4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 13B1A8DE2CE05ACD00F76AC4;
+					};
+					13B1A8FA2CE05ACE00F76AC4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 13B1A8DE2CE05ACD00F76AC4;
+					};
+				};
+			};
+			buildConfigurationList = 13B1A8D62CE05ACD00F76AC4 /* Build configuration list for PBXProject "Vibrator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13B1A8D22CE05ACD00F76AC4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 13B1A8DA2CE05ACD00F76AC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B1A8D82CE05ACD00F76AC4 /* Vibrator */,
+				13B1A8DE2CE05ACD00F76AC4 /* Vibrator Watch App */,
+				13B1A8F02CE05ACE00F76AC4 /* Vibrator Watch AppTests */,
+				13B1A8FA2CE05ACE00F76AC4 /* Vibrator Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B1A8D72CE05ACD00F76AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B1A8DD2CE05ACD00F76AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B1A8EF2CE05ACE00F76AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B1A8F92CE05ACE00F76AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B1A8DB2CE05ACD00F76AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B1A8ED2CE05ACE00F76AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B1A8F72CE05ACE00F76AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13B1A8E22CE05ACD00F76AC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B1A8DE2CE05ACD00F76AC4 /* Vibrator Watch App */;
+			targetProxy = 13B1A8E12CE05ACD00F76AC4 /* PBXContainerItemProxy */;
+		};
+		13B1A8F32CE05ACE00F76AC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B1A8DE2CE05ACD00F76AC4 /* Vibrator Watch App */;
+			targetProxy = 13B1A8F22CE05ACE00F76AC4 /* PBXContainerItemProxy */;
+		};
+		13B1A8FD2CE05ACE00F76AC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B1A8DE2CE05ACD00F76AC4 /* Vibrator Watch App */;
+			targetProxy = 13B1A8FC2CE05ACE00F76AC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13B1A9032CE05ACE00F76AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13B1A9042CE05ACE00F76AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		13B1A9062CE05ACE00F76AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vibrator Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = J4APN86XK4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Vibrator;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoshinoyume.Vibrator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		13B1A9072CE05ACE00F76AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vibrator Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = J4APN86XK4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Vibrator;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoshinoyume.Vibrator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		13B1A90A2CE05ACE00F76AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J4APN86XK4;
+				INFOPLIST_KEY_CFBundleDisplayName = Vibrator;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoshinoyume.Vibrator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		13B1A90B2CE05ACE00F76AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J4APN86XK4;
+				INFOPLIST_KEY_CFBundleDisplayName = Vibrator;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoshinoyume.Vibrator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13B1A90D2CE05ACE00F76AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoshinoyume.Vibrator-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vibrator Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vibrator Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		13B1A90E2CE05ACE00F76AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoshinoyume.Vibrator-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vibrator Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vibrator Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		13B1A9102CE05ACE00F76AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoshinoyume.Vibrator-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Vibrator Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		13B1A9112CE05ACE00F76AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoshinoyume.Vibrator-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Vibrator Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B1A8D62CE05ACD00F76AC4 /* Build configuration list for PBXProject "Vibrator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B1A9032CE05ACE00F76AC4 /* Debug */,
+				13B1A9042CE05ACE00F76AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B1A9052CE05ACE00F76AC4 /* Build configuration list for PBXNativeTarget "Vibrator Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B1A9062CE05ACE00F76AC4 /* Debug */,
+				13B1A9072CE05ACE00F76AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B1A9092CE05ACE00F76AC4 /* Build configuration list for PBXNativeTarget "Vibrator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B1A90A2CE05ACE00F76AC4 /* Debug */,
+				13B1A90B2CE05ACE00F76AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B1A90C2CE05ACE00F76AC4 /* Build configuration list for PBXNativeTarget "Vibrator Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B1A90D2CE05ACE00F76AC4 /* Debug */,
+				13B1A90E2CE05ACE00F76AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B1A90F2CE05ACE00F76AC4 /* Build configuration list for PBXNativeTarget "Vibrator Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B1A9102CE05ACE00F76AC4 /* Debug */,
+				13B1A9112CE05ACE00F76AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13B1A8D32CE05ACD00F76AC4 /* Project object */;
+}
